@@ -26,11 +26,11 @@ planes_data = [{'_id': 1, 'precio': 100},
                {'_id': 3, 'precio': 200},
                {'_id': 4, 'precio': 300},
                ]
-descuentos_data = [{"_id": 1, "monto": 0.1},
-                   {"_id": 2, "monto": 0.2},
-                   {"_id": 3, "monto": 0.3},
-                   {"_id": 4, "monto": 0.4},
-                   {"_id": 5, "monto": 0.5},
+descuentos_data = [{"_id": 1, "monto": 0.1, "aplicaciones": 4},
+                   {"_id": 2, "monto": 0.2, "aplicaciones": 0},
+                   {"_id": 3, "monto": 0.3, "aplicaciones": 3},
+                   {"_id": 4, "monto": 0.4, "aplicaciones": 2},
+                   {"_id": 5, "monto": 0.5 , "aplicaciones": 1},
 
 ]
 
