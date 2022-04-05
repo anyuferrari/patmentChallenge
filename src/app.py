@@ -48,6 +48,4 @@ def calculate_payment(socios_list):
     return final_price
 
 
-a = calculate_payment([{'_id': 1, 'plan_id': 1, 'descuentos': [], 'status': 'active',
-     'validity': datetime(2022, 3, 1)}])
-print(a)
+calculate_payment(get_payment_due())
