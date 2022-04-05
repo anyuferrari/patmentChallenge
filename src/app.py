@@ -48,4 +48,8 @@ def calculate_payment(socios_list):
     return final_price
 
 
-calculate_payment(get_payment_due())
+members_list = []
+
+for member in get_payment_due():
+    members_list.append(member)
+calculate_payment(members_list)
